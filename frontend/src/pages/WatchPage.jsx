@@ -146,7 +146,7 @@ const WatchPage = () => {
               width={"100%"}
               height={"70vh"}
               className="mx-auto overflow-hidden rounded-lg"
-              url={`https://www.youtube.com/watch?v=${trailers[currentTrailerIdx].key}`}
+              url={`https://www.youtube.com/watch?v=${trailers[currentTrailerIdx]?.key}`}
             />
           )}
           {trailers.length === 0 && (
